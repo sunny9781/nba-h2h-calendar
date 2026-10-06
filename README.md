@@ -24,7 +24,7 @@ pip install -r requirements.txt
 python generate_calendar.py
 ```
 
-This writes `nba_head_to_head.ics` in the repo root. A full-season fetch hits ESPN once per day from October through May and can take several minutes.
+This writes `nba_head_to_head.ics` in the repo root. The generator fetches each target team's preseason, regular-season, and postseason schedules (27 requests total), then combines and deduplicates them to keep only games between target teams.
 
 ## Initialize git, push to GitHub, enable Pages
 

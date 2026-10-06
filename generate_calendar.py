@@ -4,7 +4,7 @@
 from __future__ import annotations
 
 import time
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -23,9 +23,20 @@ TARGET_TEAMS = {
     "Minnesota Timberwolves",
     "Toronto Raptors",
 }
+TARGET_TEAM_ABBREVIATIONS = {
+    "Oklahoma City Thunder": "okc",
+    "San Antonio Spurs": "sas",
+    "New York Knicks": "nyk",
+    "Philadelphia 76ers": "phi",
+    "Boston Celtics": "bos",
+    "Miami Heat": "mia",
+    "Denver Nuggets": "den",
+    "Minnesota Timberwolves": "min",
+    "Toronto Raptors": "tor",
+}
 
-SCOREBOARD_URL = (
-    "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard"
+TEAM_SCHEDULE_URL = (
+    "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams"
 )
 OUTPUT_PATH = Path(__file__).resolve().parent / "nba_head_to_head.ics"
 USER_AGENT = (
@@ -33,34 +44,33 @@ USER_AGENT = (
 )
 MAX_RETRIES = 3
 RETRY_BACKOFF_SECONDS = 1.5
+SCHEDULE_TYPES = (1, 2, 3)
 
 
 def current_season_range(today: date | None = None) -> tuple[date, date]:
     today = today or date.today()
-    if today.month >= 10:
-        start = date(today.year, 10, 1)
-        end = date(today.year + 1, 5, 31)
+    if today.month >= 7:
+        season_start_year = today.year
     else:
-        start = date(today.year - 1, 10, 1)
-        end = date(today.year, 5, 31)
+        season_start_year = today.year - 1
+    start = date(season_start_year, 10, 1)
+    end = date(season_start_year + 1, 6, 30)
     return start, end
 
 
-def daterange(start: date, end: date):
-    current = start
-    while current <= end:
-        yield current
-        current += timedelta(days=1)
-
-
-def fetch_scoreboard(day: date) -> dict[str, Any]:
-    params = {"dates": day.strftime("%Y%m%d")}
+def fetch_team_schedule(
+    team_abbreviation: str, season: int, season_type: int
+) -> dict[str, Any]:
+    params = {"season": season, "seasontype": season_type}
     headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
     last_error: Exception | None = None
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             response = requests.get(
-                SCOREBOARD_URL, params=params, headers=headers, timeout=30
+                f"{TEAM_SCHEDULE_URL}/{team_abbreviation}/schedule",
+                params=params,
+                headers=headers,
+                timeout=30,
             )
             response.raise_for_status()
             return response.json()
@@ -68,7 +78,10 @@ def fetch_scoreboard(day: date) -> dict[str, Any]:
             last_error = exc
             if attempt < MAX_RETRIES:
                 time.sleep(RETRY_BACKOFF_SECONDS * attempt)
-    raise RuntimeError(f"Failed to fetch scoreboard for {day}: {last_error}") from last_error
+    raise RuntimeError(
+        f"Failed to fetch season type {season_type} schedule for "
+        f"{team_abbreviation} in {season}: {last_error}"
+    ) from last_error
 
 
 def parse_utc(timestamp: str) -> datetime:
@@ -79,7 +92,7 @@ def parse_utc(timestamp: str) -> datetime:
     return parsed.astimezone(timezone.utc)
 
 
-def extract_matchup(event: dict[str, Any]) -> tuple[str, str, str] | None:
+def extract_matchup(event: dict[str, Any]) -> tuple[str, str] | None:
     competitions = event.get("competitions") or []
     if not competitions:
         return None
@@ -95,8 +108,7 @@ def extract_matchup(event: dict[str, Any]) -> tuple[str, str, str] | None:
             away_name = name
     if not home_name or not away_name:
         return None
-    venue = ((competition.get("venue") or {}).get("fullName")) or ""
-    return away_name, home_name, venue
+    return away_name, home_name
 
 
 def build_calendar(events_by_id: dict[str, dict[str, Any]]) -> Calendar:
@@ -108,39 +120,41 @@ def build_calendar(events_by_id: dict[str, dict[str, Any]]) -> Calendar:
         event.name = payload["title"]
         event.begin = payload["begin"]
         event.description = payload["description"]
-        if payload["location"]:
-            event.location = payload["location"]
         calendar.events.add(event)
     return calendar
 
 
 def collect_games() -> dict[str, dict[str, Any]]:
-    start, end = current_season_range()
+    _, end = current_season_range()
+    season = end.year
     matched: dict[str, dict[str, Any]] = {}
-    print(f"Fetching NBA scoreboard {start.isoformat()} through {end.isoformat()}...")
-    for day in daterange(start, end):
-        data = fetch_scoreboard(day)
-        for event in data.get("events") or []:
-            game_id = str(event.get("id") or "")
-            if not game_id or game_id in matched:
-                continue
-            matchup = extract_matchup(event)
-            if not matchup:
-                continue
-            away_name, home_name, venue = matchup
-            if away_name not in TARGET_TEAMS or home_name not in TARGET_TEAMS:
-                continue
-            tip_off = event.get("date")
-            if not tip_off:
-                continue
-            matched[game_id] = {
-                "title": f"🏀 {away_name} @ {home_name}",
-                "begin": parse_utc(tip_off),
-                "location": venue,
-                "description": (
-                    f"Head-to-Head Contender Matchup: {away_name} vs {home_name}"
-                ),
-            }
+    print(
+        f"Fetching {season - 1}-{str(season)[-2:]} NBA team schedules "
+        f"for {len(TARGET_TEAM_ABBREVIATIONS)} teams..."
+    )
+    for team_abbreviation in TARGET_TEAM_ABBREVIATIONS.values():
+        for season_type in SCHEDULE_TYPES:
+            data = fetch_team_schedule(team_abbreviation, season, season_type)
+            for event in data.get("events") or []:
+                game_id = str(event.get("id") or "")
+                if not game_id or game_id in matched:
+                    continue
+                matchup = extract_matchup(event)
+                if not matchup:
+                    continue
+                away_name, home_name = matchup
+                if away_name not in TARGET_TEAMS or home_name not in TARGET_TEAMS:
+                    continue
+                tip_off = event.get("date")
+                if not tip_off:
+                    continue
+                matched[game_id] = {
+                    "title": f"🏀 {away_name} @ {home_name}",
+                    "begin": parse_utc(tip_off),
+                    "description": (
+                        f"Head-to-Head Contender Matchup: {away_name} vs {home_name}"
+                    ),
+                }
     return matched
 
 
