@@ -22,6 +22,10 @@ TARGET_TEAMS = {
     "Denver Nuggets",
     "Minnesota Timberwolves",
     "Toronto Raptors",
+    "Portland Trail Blazers",
+    "Dallas Mavericks",
+    "Cleveland Cavaliers",
+    "Houston Rockets",
 }
 TARGET_TEAM_ABBREVIATIONS = {
     "Oklahoma City Thunder": "okc",
@@ -33,6 +37,10 @@ TARGET_TEAM_ABBREVIATIONS = {
     "Denver Nuggets": "den",
     "Minnesota Timberwolves": "min",
     "Toronto Raptors": "tor",
+    "Portland Trail Blazers": "por",
+    "Dallas Mavericks": "dal",
+    "Cleveland Cavaliers": "cle",
+    "Houston Rockets": "hou",
 }
 
 TEAM_SCHEDULE_URL = (
