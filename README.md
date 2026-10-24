@@ -8,7 +8,7 @@ Target teams (both home and away must be on this list):
 - San Antonio Spurs
 - New York Knicks
 - Philadelphia 76ers
-- Boston Celtics
+- Los Angeles Lakers
 - Miami Heat
 - Denver Nuggets
 - Minnesota Timberwolves

@@ -3,6 +3,12 @@ X-WR-CALNAME:NBA Head-to-Head
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Minnesota Timberwolves
+DTSTART:20261219T010000Z
+SUMMARY:🏀 Los Angeles Lakers @ Minnesota Timberwolves
+UID:401910142@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs Portland Trail Blazers
 DTSTART:20261216T040000Z
 SUMMARY:🏀 Denver Nuggets @ Portland Trail Blazers
@@ -33,34 +39,22 @@ SUMMARY:🏀 Oklahoma City Thunder @ Dallas Mavericks
 UID:401909891@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Minnesota Timberwolves vs Los Angeles Lakers
+DTSTART:20270410T020000Z
+SUMMARY:🏀 Minnesota Timberwolves @ Los Angeles Lakers
+UID:401910934@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Minnesota Timberwolves vs New York Knicks
 DTSTART:20270118T220000Z
 SUMMARY:🏀 Minnesota Timberwolves @ New York Knicks
 UID:401909475@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Philadelphia 76ers
-DTSTART:20270208T000000Z
-SUMMARY:🏀 Boston Celtics @ Philadelphia 76ers
-UID:401910518@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Miami Heat vs Boston Celtics
-DTSTART:20270402T233000Z
-SUMMARY:🏀 Miami Heat @ Boston Celtics
-UID:401910869@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: San Antonio Spurs vs Dallas Mavericks
 DTSTART:20261025T000000Z
 SUMMARY:🏀 San Antonio Spurs @ Dallas Mavericks
 UID:401909858@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Houston Rockets
-DTSTART:20261103T013000Z
-SUMMARY:🏀 Boston Celtics @ Houston Rockets
-UID:401909916@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Oklahoma City Thunder vs Denver Nuggets
@@ -87,18 +81,6 @@ SUMMARY:🏀 Houston Rockets @ Minnesota Timberwolves
 UID:401910946@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Philadelphia 76ers
-DTSTART:20261111T010000Z
-SUMMARY:🏀 Boston Celtics @ Philadelphia 76ers
-UID:401909961@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Minnesota Timberwolves vs Boston Celtics
-DTSTART:20270213T010000Z
-SUMMARY:🏀 Minnesota Timberwolves @ Boston Celtics
-UID:401910556@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Toronto Raptors vs Miami Heat
 DTSTART:20270303T003000Z
 SUMMARY:🏀 Toronto Raptors @ Miami Heat
@@ -111,18 +93,6 @@ SUMMARY:🏀 San Antonio Spurs @ New York Knicks
 UID:401909097@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Portland Trail Blazers
-DTSTART:20270103T030000Z
-SUMMARY:🏀 Boston Celtics @ Portland Trail Blazers
-UID:401910250@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Toronto Raptors vs Boston Celtics
-DTSTART:20270214T180000Z
-SUMMARY:🏀 Toronto Raptors @ Boston Celtics
-UID:401910568@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Portland Trail Blazers vs Toronto Raptors
 DTSTART:20270306T003000Z
 SUMMARY:🏀 Portland Trail Blazers @ Toronto Raptors
@@ -133,6 +103,12 @@ DESCRIPTION:Head-to-Head Contender Matchup: Dallas Mavericks vs Minnesota Timber
 DTSTART:20261113T010000Z
 SUMMARY:🏀 Dallas Mavericks @ Minnesota Timberwolves
 UID:401909978@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs Los Angeles Lakers
+DTSTART:20261017T023000Z
+SUMMARY:🏀 Denver Nuggets @ Los Angeles Lakers
+UID:401898719@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Minnesota Timberwolves vs Philadelphia 76ers
@@ -153,16 +129,22 @@ SUMMARY:🏀 Toronto Raptors @ Philadelphia 76ers
 UID:401910734@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs New York Knicks
-DTSTART:20270314T160000Z
-SUMMARY:🏀 Boston Celtics @ New York Knicks
-UID:401910727@nba-h2h-calendar
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs San Antonio Spurs
+DTSTART:20261128T023000Z
+SUMMARY:🏀 Los Angeles Lakers @ San Antonio Spurs
+UID:401909333@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Oklahoma City Thunder vs Houston Rockets
 DTSTART:20261016T003000Z
 SUMMARY:🏀 Oklahoma City Thunder @ Houston Rockets
 UID:401908622@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Portland Trail Blazers vs Los Angeles Lakers
+DTSTART:20261107T030000Z
+SUMMARY:🏀 Portland Trail Blazers @ Los Angeles Lakers
+UID:401909294@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Miami Heat vs New York Knicks
@@ -175,6 +157,12 @@ DESCRIPTION:Head-to-Head Contender Matchup: Miami Heat vs New York Knicks
 DTSTART:20261128T000000Z
 SUMMARY:🏀 Miami Heat @ New York Knicks
 UID:401909326@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Cleveland Cavaliers
+DTSTART:20270325T230000Z
+SUMMARY:🏀 Los Angeles Lakers @ Cleveland Cavaliers
+UID:401910811@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Houston Rockets vs New York Knicks
@@ -213,12 +201,6 @@ SUMMARY:🏀 San Antonio Spurs @ Philadelphia 76ers
 UID:401910784@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Philadelphia 76ers vs Boston Celtics
-DTSTART:20261011T000000Z
-SUMMARY:🏀 Philadelphia 76ers @ Boston Celtics
-UID:401898398@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs Oklahoma City Thunder
 DTSTART:20270130T200000Z
 SUMMARY:🏀 Denver Nuggets @ Oklahoma City Thunder
@@ -229,6 +211,12 @@ DESCRIPTION:Head-to-Head Contender Matchup: Cleveland Cavaliers vs Toronto Rapto
 DTSTART:20270130T000000Z
 SUMMARY:🏀 Cleveland Cavaliers @ Toronto Raptors
 UID:401910445@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Miami Heat
+DTSTART:20270324T000000Z
+SUMMARY:🏀 Los Angeles Lakers @ Miami Heat
+UID:401910796@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Cleveland Cavaliers vs San Antonio Spurs
@@ -255,6 +243,12 @@ SUMMARY:🏀 Portland Trail Blazers @ Houston Rockets
 UID:401910931@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs New York Knicks
+DTSTART:20270131T013000Z
+SUMMARY:🏀 Los Angeles Lakers @ New York Knicks
+UID:401910457@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Dallas Mavericks vs Denver Nuggets
 DTSTART:20270205T030000Z
 SUMMARY:🏀 Dallas Mavericks @ Denver Nuggets
@@ -265,6 +259,12 @@ DESCRIPTION:Head-to-Head Contender Matchup: Dallas Mavericks vs Portland Trail B
 DTSTART:20270408T020000Z
 SUMMARY:🏀 Dallas Mavericks @ Portland Trail Blazers
 UID:401910917@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Toronto Raptors vs Los Angeles Lakers
+DTSTART:20261102T020000Z
+SUMMARY:🏀 Toronto Raptors @ Los Angeles Lakers
+UID:401909906@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs Oklahoma City Thunder
@@ -303,12 +303,6 @@ SUMMARY:🏀 Miami Heat @ Dallas Mavericks
 UID:401910214@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Portland Trail Blazers vs Boston Celtics
-DTSTART:20261224T003000Z
-SUMMARY:🏀 Portland Trail Blazers @ Boston Celtics
-UID:401910175@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs San Antonio Spurs
 DTSTART:20270228T180000Z
 SUMMARY:🏀 Denver Nuggets @ San Antonio Spurs
@@ -325,6 +319,12 @@ DESCRIPTION:Head-to-Head Contender Matchup: Oklahoma City Thunder vs Denver Nugg
 DTSTART:20270412T003000Z
 SUMMARY:🏀 Oklahoma City Thunder @ Denver Nuggets
 UID:401910948@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Philadelphia 76ers vs Los Angeles Lakers
+DTSTART:20261225T220000Z
+SUMMARY:🏀 Philadelphia 76ers @ Los Angeles Lakers
+UID:401909099@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Dallas Mavericks vs Portland Trail Blazers
@@ -345,6 +345,12 @@ SUMMARY:🏀 Oklahoma City Thunder @ Portland Trail Blazers
 UID:401909975@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Houston Rockets vs Los Angeles Lakers
+DTSTART:20261230T033000Z
+SUMMARY:🏀 Houston Rockets @ Los Angeles Lakers
+UID:401910219@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: San Antonio Spurs vs Minnesota Timberwolves
 DTSTART:20270219T003000Z
 SUMMARY:🏀 San Antonio Spurs @ Minnesota Timberwolves
@@ -357,22 +363,16 @@ SUMMARY:🏀 Portland Trail Blazers @ Cleveland Cavaliers
 UID:401910654@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Minnesota Timberwolves
-DTSTART:20270301T000000Z
-SUMMARY:🏀 Boston Celtics @ Minnesota Timberwolves
-UID:401910628@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Toronto Raptors
-DTSTART:20261112T000000Z
-SUMMARY:🏀 Boston Celtics @ Toronto Raptors
-UID:401909968@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: New York Knicks vs Portland Trail Blazers
 DTSTART:20270105T030000Z
 SUMMARY:🏀 New York Knicks @ Portland Trail Blazers
 UID:401910264@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Oklahoma City Thunder vs Los Angeles Lakers
+DTSTART:20270307T013000Z
+SUMMARY:🏀 Oklahoma City Thunder @ Los Angeles Lakers
+UID:401910673@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Miami Heat vs Denver Nuggets
@@ -385,12 +385,6 @@ DESCRIPTION:Head-to-Head Contender Matchup: San Antonio Spurs vs Minnesota Timbe
 DTSTART:20270104T000000Z
 SUMMARY:🏀 San Antonio Spurs @ Minnesota Timberwolves
 UID:401910257@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Houston Rockets vs Boston Celtics
-DTSTART:20270112T003000Z
-SUMMARY:🏀 Houston Rockets @ Boston Celtics
-UID:401910315@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Portland Trail Blazers vs Oklahoma City Thunder
@@ -471,22 +465,10 @@ SUMMARY:🏀 Dallas Mavericks @ Minnesota Timberwolves
 UID:401910806@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs San Antonio Spurs
-DTSTART:20261129T210000Z
-SUMMARY:🏀 Boston Celtics @ San Antonio Spurs
-UID:401910052@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Dallas Mavericks vs Houston Rockets
 DTSTART:20261022T003000Z
 SUMMARY:🏀 Dallas Mavericks @ Houston Rockets
 UID:401909840@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Toronto Raptors
-DTSTART:20270131T230000Z
-SUMMARY:🏀 Boston Celtics @ Toronto Raptors
-UID:401910461@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs Minnesota Timberwolves
@@ -513,16 +495,22 @@ SUMMARY:🏀 Minnesota Timberwolves @ San Antonio Spurs
 UID:401910396@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Houston Rockets vs Portland Trail Blazers
-DTSTART:20270401T020000Z
-SUMMARY:🏀 Houston Rockets @ Portland Trail Blazers
-UID:401910863@nba-h2h-calendar
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Houston Rockets
+DTSTART:20261201T003000Z
+SUMMARY:🏀 Los Angeles Lakers @ Houston Rockets
+UID:401910064@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Oklahoma City Thunder vs Minnesota Timberwolves
 DTSTART:20270328T233000Z
 SUMMARY:🏀 Oklahoma City Thunder @ Minnesota Timberwolves
 UID:401910837@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Houston Rockets vs Portland Trail Blazers
+DTSTART:20270401T020000Z
+SUMMARY:🏀 Houston Rockets @ Portland Trail Blazers
+UID:401910863@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Toronto Raptors vs Portland Trail Blazers
@@ -585,6 +573,12 @@ SUMMARY:🏀 New York Knicks @ Cleveland Cavaliers
 UID:401910160@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: San Antonio Spurs vs Los Angeles Lakers
+DTSTART:20270405T020000Z
+SUMMARY:🏀 San Antonio Spurs @ Los Angeles Lakers
+UID:401910894@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Toronto Raptors vs Dallas Mavericks
 DTSTART:20270203T010000Z
 SUMMARY:🏀 Toronto Raptors @ Dallas Mavericks
@@ -607,12 +601,6 @@ DESCRIPTION:Head-to-Head Contender Matchup: Cleveland Cavaliers vs Toronto Rapto
 DTSTART:20270213T003000Z
 SUMMARY:🏀 Cleveland Cavaliers @ Toronto Raptors
 UID:401910555@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs Boston Celtics
-DTSTART:20270210T003000Z
-SUMMARY:🏀 Denver Nuggets @ Boston Celtics
-UID:401910529@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Houston Rockets vs San Antonio Spurs
@@ -645,6 +633,12 @@ SUMMARY:🏀 Philadelphia 76ers @ New York Knicks
 UID:401909089@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs Los Angeles Lakers
+DTSTART:20261224T030000Z
+SUMMARY:🏀 Denver Nuggets @ Los Angeles Lakers
+UID:401910184@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: New York Knicks vs Denver Nuggets
 DTSTART:20270102T220000Z
 SUMMARY:🏀 New York Knicks @ Denver Nuggets
@@ -675,6 +669,12 @@ SUMMARY:🏀 Minnesota Timberwolves @ Oklahoma City Thunder
 UID:401910644@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Toronto Raptors
+DTSTART:20270104T000000Z
+SUMMARY:🏀 Los Angeles Lakers @ Toronto Raptors
+UID:401910254@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Dallas Mavericks vs Houston Rockets
 DTSTART:20261011T100000Z
 SUMMARY:🏀 Dallas Mavericks @ Houston Rockets
@@ -693,16 +693,22 @@ SUMMARY:🏀 Minnesota Timberwolves @ Oklahoma City Thunder
 UID:401909320@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Houston Rockets vs Los Angeles Lakers
+DTSTART:20270219T030000Z
+SUMMARY:🏀 Houston Rockets @ Los Angeles Lakers
+UID:401910598@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Philadelphia 76ers
+DTSTART:20270305T000000Z
+SUMMARY:🏀 Los Angeles Lakers @ Philadelphia 76ers
+UID:401910656@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Toronto Raptors vs Cleveland Cavaliers
 DTSTART:20270106T000000Z
 SUMMARY:🏀 Toronto Raptors @ Cleveland Cavaliers
 UID:401910266@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Philadelphia 76ers vs Boston Celtics
-DTSTART:20270307T180000Z
-SUMMARY:🏀 Philadelphia 76ers @ Boston Celtics
-UID:401910675@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Toronto Raptors vs Miami Heat
@@ -717,12 +723,6 @@ SUMMARY:🏀 Portland Trail Blazers @ Dallas Mavericks
 UID:401910285@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Dallas Mavericks vs Boston Celtics
-DTSTART:20261115T230000Z
-SUMMARY:🏀 Dallas Mavericks @ Boston Celtics
-UID:401909989@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Philadelphia 76ers vs San Antonio Spurs
 DTSTART:20270312T003000Z
 SUMMARY:🏀 Philadelphia 76ers @ San Antonio Spurs
@@ -733,12 +733,6 @@ DESCRIPTION:Head-to-Head Contender Matchup: Cleveland Cavaliers vs Minnesota Tim
 DTSTART:20270112T010000Z
 SUMMARY:🏀 Cleveland Cavaliers @ Minnesota Timberwolves
 UID:401910317@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Cleveland Cavaliers
-DTSTART:20261008T230000Z
-SUMMARY:🏀 Boston Celtics @ Cleveland Cavaliers
-UID:401898392@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: San Antonio Spurs vs Portland Trail Blazers
@@ -757,18 +751,6 @@ DESCRIPTION:Head-to-Head Contender Matchup: San Antonio Spurs vs Houston Rockets
 DTSTART:20270317T003000Z
 SUMMARY:🏀 San Antonio Spurs @ Houston Rockets
 UID:401910745@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: San Antonio Spurs vs Boston Celtics
-DTSTART:20270324T233000Z
-SUMMARY:🏀 San Antonio Spurs @ Boston Celtics
-UID:401910803@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Toronto Raptors vs Boston Celtics
-DTSTART:20270126T000000Z
-SUMMARY:🏀 Toronto Raptors @ Boston Celtics
-UID:401910413@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Dallas Mavericks vs Toronto Raptors
@@ -819,10 +801,10 @@ SUMMARY:🏀 Miami Heat @ Cleveland Cavaliers
 UID:401910054@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Miami Heat
-DTSTART:20270328T000000Z
-SUMMARY:🏀 Boston Celtics @ Miami Heat
-UID:401910827@nba-h2h-calendar
+DESCRIPTION:Head-to-Head Contender Matchup: Houston Rockets vs Portland Trail Blazers
+DTSTART:20270331T030000Z
+SUMMARY:🏀 Houston Rockets @ Portland Trail Blazers
+UID:401910853@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Houston Rockets vs Minnesota Timberwolves
@@ -831,16 +813,16 @@ SUMMARY:🏀 Houston Rockets @ Minnesota Timberwolves
 UID:401910379@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Houston Rockets vs Portland Trail Blazers
-DTSTART:20270331T030000Z
-SUMMARY:🏀 Houston Rockets @ Portland Trail Blazers
-UID:401910853@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Dallas Mavericks vs Philadelphia 76ers
 DTSTART:20261218T000000Z
 SUMMARY:🏀 Dallas Mavericks @ Philadelphia 76ers
 UID:401910131@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Portland Trail Blazers vs Los Angeles Lakers
+DTSTART:20261028T030000Z
+SUMMARY:🏀 Portland Trail Blazers @ Los Angeles Lakers
+UID:401909880@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Houston Rockets vs Toronto Raptors
@@ -861,6 +843,12 @@ SUMMARY:🏀 San Antonio Spurs @ Dallas Mavericks
 UID:401910533@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Minnesota Timberwolves vs Los Angeles Lakers
+DTSTART:20270408T020000Z
+SUMMARY:🏀 Minnesota Timberwolves @ Los Angeles Lakers
+UID:401910916@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Toronto Raptors vs Denver Nuggets
 DTSTART:20261105T020000Z
 SUMMARY:🏀 Toronto Raptors @ Denver Nuggets
@@ -871,12 +859,6 @@ DESCRIPTION:Head-to-Head Contender Matchup: Cleveland Cavaliers vs Philadelphia 
 DTSTART:20261022T230000Z
 SUMMARY:🏀 Cleveland Cavaliers @ Philadelphia 76ers
 UID:401909093@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Cleveland Cavaliers vs Boston Celtics
-DTSTART:20270227T003000Z
-SUMMARY:🏀 Cleveland Cavaliers @ Boston Celtics
-UID:401910610@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs Houston Rockets
@@ -891,16 +873,28 @@ SUMMARY:🏀 New York Knicks @ Oklahoma City Thunder
 UID:401910519@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Minnesota Timberwolves
+DTSTART:20261217T023000Z
+SUMMARY:🏀 Los Angeles Lakers @ Minnesota Timberwolves
+UID:401910129@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Denver Nuggets
+DTSTART:20261220T020000Z
+SUMMARY:🏀 Los Angeles Lakers @ Denver Nuggets
+UID:401910148@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Portland Trail Blazers vs San Antonio Spurs
 DTSTART:20270412T003000Z
 SUMMARY:🏀 Portland Trail Blazers @ San Antonio Spurs
 UID:401910947@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Miami Heat vs Boston Celtics
-DTSTART:20261225T193000Z
-SUMMARY:🏀 Miami Heat @ Boston Celtics
-UID:401909098@nba-h2h-calendar
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Denver Nuggets
+DTSTART:20270227T030000Z
+SUMMARY:🏀 Los Angeles Lakers @ Denver Nuggets
+UID:401910615@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Dallas Mavericks vs Cleveland Cavaliers
@@ -927,6 +921,12 @@ SUMMARY:🏀 Houston Rockets @ Philadelphia 76ers
 UID:401910179@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: New York Knicks vs Los Angeles Lakers
+DTSTART:20270312T030000Z
+SUMMARY:🏀 New York Knicks @ Los Angeles Lakers
+UID:401910711@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Cleveland Cavaliers vs New York Knicks
 DTSTART:20261112T000000Z
 SUMMARY:🏀 Cleveland Cavaliers @ New York Knicks
@@ -943,6 +943,12 @@ DESCRIPTION:Head-to-Head Contender Matchup: Oklahoma City Thunder vs Philadelphi
 DTSTART:20270107T003000Z
 SUMMARY:🏀 Oklahoma City Thunder @ Philadelphia 76ers
 UID:401910275@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Portland Trail Blazers
+DTSTART:20270114T030000Z
+SUMMARY:🏀 Los Angeles Lakers @ Portland Trail Blazers
+UID:401910333@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: New York Knicks vs Dallas Mavericks
@@ -975,16 +981,16 @@ SUMMARY:🏀 Miami Heat @ Toronto Raptors
 UID:401910345@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Philadelphia 76ers
-DTSTART:20261016T230000Z
-SUMMARY:🏀 Boston Celtics @ Philadelphia 76ers
-UID:401898407@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: San Antonio Spurs vs Oklahoma City Thunder
 DTSTART:20270314T183000Z
 SUMMARY:🏀 San Antonio Spurs @ Oklahoma City Thunder
 UID:401910728@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Portland Trail Blazers
+DTSTART:20270317T020000Z
+SUMMARY:🏀 Los Angeles Lakers @ Portland Trail Blazers
+UID:401910747@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs Cleveland Cavaliers
@@ -999,16 +1005,34 @@ SUMMARY:🏀 Miami Heat @ San Antonio Spurs
 UID:401910383@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs Dallas Mavericks
-DTSTART:20270401T013000Z
-SUMMARY:🏀 Denver Nuggets @ Dallas Mavericks
-UID:401910862@nba-h2h-calendar
+DESCRIPTION:Head-to-Head Contender Matchup: Dallas Mavericks vs Los Angeles Lakers
+DTSTART:20270322T020000Z
+SUMMARY:🏀 Dallas Mavericks @ Los Angeles Lakers
+UID:401910785@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Oklahoma City Thunder vs Los Angeles Lakers
+DTSTART:20270127T040000Z
+SUMMARY:🏀 Oklahoma City Thunder @ Los Angeles Lakers
+UID:401910427@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs San Antonio Spurs
+DTSTART:20270207T013000Z
+SUMMARY:🏀 Los Angeles Lakers @ San Antonio Spurs
+UID:401910511@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Portland Trail Blazers vs Philadelphia 76ers
 DTSTART:20261124T000000Z
 SUMMARY:🏀 Portland Trail Blazers @ Philadelphia 76ers
 UID:401910037@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs Dallas Mavericks
+DTSTART:20270401T013000Z
+SUMMARY:🏀 Denver Nuggets @ Dallas Mavericks
+UID:401910862@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Portland Trail Blazers vs Denver Nuggets
@@ -1024,9 +1048,21 @@ UID:401909902@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Oklahoma City Thunder vs San Antonio Spurs
-DTSTART:20261021T013000Z
+DTSTART:20261021T015000Z
 SUMMARY:🏀 Oklahoma City Thunder @ San Antonio Spurs
 UID:401909090@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Dallas Mavericks vs Los Angeles Lakers
+DTSTART:20270407T020000Z
+SUMMARY:🏀 Dallas Mavericks @ Los Angeles Lakers
+UID:401910906@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Miami Heat vs Los Angeles Lakers
+DTSTART:20261103T030000Z
+SUMMARY:🏀 Miami Heat @ Los Angeles Lakers
+UID:401909921@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs San Antonio Spurs
@@ -1041,10 +1077,10 @@ SUMMARY:🏀 New York Knicks @ Miami Heat
 UID:401910094@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs New York Knicks
-DTSTART:20270404T233000Z
-SUMMARY:🏀 Boston Celtics @ New York Knicks
-UID:401910893@nba-h2h-calendar
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Oklahoma City Thunder
+DTSTART:20270402T013000Z
+SUMMARY:🏀 Los Angeles Lakers @ Oklahoma City Thunder
+UID:401910867@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: New York Knicks vs Cleveland Cavaliers
@@ -1095,12 +1131,6 @@ SUMMARY:🏀 Toronto Raptors @ Cleveland Cavaliers
 UID:401910528@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: New York Knicks vs Boston Celtics
-DTSTART:20261023T230000Z
-SUMMARY:🏀 New York Knicks @ Boston Celtics
-UID:401909095@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Philadelphia 76ers vs Miami Heat
 DTSTART:20270408T230000Z
 SUMMARY:🏀 Philadelphia 76ers @ Miami Heat
@@ -1125,10 +1155,10 @@ SUMMARY:🏀 Philadelphia 76ers @ Dallas Mavericks
 UID:401909478@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Oklahoma City Thunder
-DTSTART:20270218T023000Z
-SUMMARY:🏀 Boston Celtics @ Oklahoma City Thunder
-UID:401910592@nba-h2h-calendar
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Dallas Mavericks
+DTSTART:20270228T203000Z
+SUMMARY:🏀 Los Angeles Lakers @ Dallas Mavericks
+UID:401910624@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: New York Knicks vs Toronto Raptors
@@ -1137,10 +1167,10 @@ SUMMARY:🏀 New York Knicks @ Toronto Raptors
 UID:401909990@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Cleveland Cavaliers vs Boston Celtics
-DTSTART:20261229T010000Z
-SUMMARY:🏀 Cleveland Cavaliers @ Boston Celtics
-UID:401910208@nba-h2h-calendar
+DESCRIPTION:Head-to-Head Contender Matchup: Denver Nuggets vs Los Angeles Lakers
+DTSTART:20270213T033000Z
+SUMMARY:🏀 Denver Nuggets @ Los Angeles Lakers
+UID:401910559@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Oklahoma City Thunder vs Houston Rockets
@@ -1177,12 +1207,6 @@ DESCRIPTION:Head-to-Head Contender Matchup: Miami Heat vs Philadelphia 76ers
 DTSTART:20270109T000000Z
 SUMMARY:🏀 Miami Heat @ Philadelphia 76ers
 UID:401910291@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Oklahoma City Thunder vs Boston Celtics
-DTSTART:20270313T003000Z
-SUMMARY:🏀 Oklahoma City Thunder @ Boston Celtics
-UID:401910713@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: New York Knicks vs Philadelphia 76ers
@@ -1251,16 +1275,16 @@ SUMMARY:🏀 Dallas Mavericks @ Oklahoma City Thunder
 UID:401910686@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Head-to-Head Contender Matchup: Cleveland Cavaliers vs Los Angeles Lakers
+DTSTART:20270313T030000Z
+SUMMARY:🏀 Cleveland Cavaliers @ Los Angeles Lakers
+UID:401910718@nba-h2h-calendar
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Portland Trail Blazers vs Minnesota Timberwolves
 DTSTART:20261118T010000Z
 SUMMARY:🏀 Portland Trail Blazers @ Minnesota Timberwolves
 UID:401910003@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: New York Knicks vs Boston Celtics
-DTSTART:20270114T000000Z
-SUMMARY:🏀 New York Knicks @ Boston Celtics
-UID:401910328@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Miami Heat vs Philadelphia 76ers
@@ -1287,12 +1311,6 @@ SUMMARY:🏀 Miami Heat @ Portland Trail Blazers
 UID:401910756@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Denver Nuggets
-DTSTART:20261119T020000Z
-SUMMARY:🏀 Boston Celtics @ Denver Nuggets
-UID:401910015@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Oklahoma City Thunder vs Dallas Mavericks
 DTSTART:20270119T010000Z
 SUMMARY:🏀 Oklahoma City Thunder @ Dallas Mavericks
@@ -1305,10 +1323,10 @@ SUMMARY:🏀 Houston Rockets @ San Antonio Spurs
 UID:401910424@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Philadelphia 76ers vs Boston Celtics
-DTSTART:20270122T003000Z
-SUMMARY:🏀 Philadelphia 76ers @ Boston Celtics
-UID:401910385@nba-h2h-calendar
+DESCRIPTION:Head-to-Head Contender Matchup: Los Angeles Lakers vs Houston Rockets
+DTSTART:20270328T190000Z
+SUMMARY:🏀 Los Angeles Lakers @ Houston Rockets
+UID:401910833@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: Dallas Mavericks vs San Antonio Spurs
@@ -1345,18 +1363,6 @@ DESCRIPTION:Head-to-Head Contender Matchup: Minnesota Timberwolves vs Portland T
 DTSTART:20270203T040000Z
 SUMMARY:🏀 Minnesota Timberwolves @ Portland Trail Blazers
 UID:401910481@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Dallas Mavericks
-DTSTART:20261201T010000Z
-SUMMARY:🏀 Boston Celtics @ Dallas Mavericks
-UID:401910065@nba-h2h-calendar
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Head-to-Head Contender Matchup: Boston Celtics vs Cleveland Cavaliers
-DTSTART:20270401T230000Z
-SUMMARY:🏀 Boston Celtics @ Cleveland Cavaliers
-UID:401910864@nba-h2h-calendar
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Head-to-Head Contender Matchup: San Antonio Spurs vs Toronto Raptors
