@@ -14,7 +14,6 @@ Target teams (both home and away must be on this list):
 - Toronto Raptors
 - Portland Trail Blazers
 - Dallas Mavericks
-- Cleveland Cavaliers
 - Houston Rockets
 
 ## Local run
@@ -27,7 +26,7 @@ pip install -r requirements.txt
 python generate_calendar.py
 ```
 
-This writes `nba_head_to_head.ics` in the repo root. The generator fetches each target team's preseason, regular-season, and postseason schedules (36 requests total for 12 teams), then combines and deduplicates them to keep only games between target teams.
+This writes `nba_head_to_head.ics` in the repo root. The generator fetches each target team's preseason, regular-season, and postseason schedules (33 requests total for 11 teams), then combines and deduplicates them to keep only games between target teams.
 
 ## Initialize git, push to GitHub, enable Pages
 

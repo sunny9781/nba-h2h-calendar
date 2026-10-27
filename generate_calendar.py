@@ -23,7 +23,6 @@ TARGET_TEAMS = {
     "Toronto Raptors",
     "Portland Trail Blazers",
     "Dallas Mavericks",
-    "Cleveland Cavaliers",
     "Houston Rockets",
 }
 TARGET_TEAM_ABBREVIATIONS = {
@@ -37,7 +36,6 @@ TARGET_TEAM_ABBREVIATIONS = {
     "Toronto Raptors": "tor",
     "Portland Trail Blazers": "por",
     "Dallas Mavericks": "dal",
-    "Cleveland Cavaliers": "cle",
     "Houston Rockets": "hou",
 }
 
