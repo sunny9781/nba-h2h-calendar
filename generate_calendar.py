@@ -24,6 +24,7 @@ TARGET_TEAMS = {
     "Portland Trail Blazers",
     "Dallas Mavericks",
     "Houston Rockets",
+    "Boston Celtics",
 }
 TARGET_TEAM_ABBREVIATIONS = {
     "Oklahoma City Thunder": "okc",
@@ -37,6 +38,7 @@ TARGET_TEAM_ABBREVIATIONS = {
     "Portland Trail Blazers": "por",
     "Dallas Mavericks": "dal",
     "Houston Rockets": "hou",
+    "Boston Celtics": "bos",
 }
 
 TEAM_SCHEDULE_URL = (
